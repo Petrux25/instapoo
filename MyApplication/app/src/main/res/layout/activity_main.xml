@@ -7,6 +7,7 @@
     tools:context="com.example.diesv.myapplication.MainActivity">
 
     <TextView
+        android:id="@+id/vista"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hola Pig Master64 !"
@@ -16,8 +17,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/boton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cambio"/>
+        android:text="Cambio"
+        android:onClick="yeee"/>
 
 </android.support.constraint.ConstraintLayout>
